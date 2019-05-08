@@ -1,4 +1,25 @@
 #include "pch.h"
+// Dijkstra
+// takes Vertex src
+
+// map<Vertex,int> distance // maintains distance as they get updated
+// map<Vertex,int> distance_tracking // used for most operations like getting MIN and ERASe
+
+// above are mostly because of lack of priority_queue
+
+// deque<Vertex> Q
+// Q.push(src)
+// seed 0 for src.. int::max for others.. and add them to Q
+
+// main loop.. while Q has vertices
+// pick lowest distance node
+// for conn : lowest distance node.conns
+// relaxation (math.. current compared to weight + )
+
+// now delete that "lowest node" from distance_tracking MAP
+// now delete it from Q as well
+
+// return distance
 
 // USAGE
 //
