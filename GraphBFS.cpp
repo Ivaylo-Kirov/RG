@@ -1,3 +1,20 @@
+/*
+
+// unordered_set visited
+// queue<Vertex> Q
+
+// Q.push(start)
+// visited.insert(start)
+
+// while (!Q.empty())
+// for conn in Q.conns (assuming Q maintains its connections in an internal structure like a vector)
+// if not visited
+// Q.push(conn)
+// visited.insert(conn)
+// Q.pop()
+
+*/
+
 class Edge;
 class Vertex;
 class Graph;
