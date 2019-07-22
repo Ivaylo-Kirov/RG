@@ -1,3 +1,17 @@
+/*
+
+// takes vector, start, end
+// if start < end
+// partition_element = partition(vector, start, end)
+// recurse(vector, start, partition - 1)
+// recurse(vector, partition + 1, end)
+
+// partition
+// takes vector, start, end
+// squeeze and process.. Return pivot location
+
+*/
+
 #include "pch.h"
 
 int partition(std::vector<int>& nums, int start_index, int end_index) {
