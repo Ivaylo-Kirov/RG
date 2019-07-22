@@ -1,3 +1,24 @@
+/*
+
+// ====================================class HashTable
+// int num_buckets
+// list<T>* buckets_array
+// ==================================== hashFunction
+// data % num_buckets
+// returns index of the bucket
+// ==================================== insert
+// int index = hashFunction(data)
+// .push_back(data)
+// ====================================erase
+// int index = hashFunction(data)
+// erase/remove idiom or other, depending on structure used
+// ====================================print
+// for num_buckets
+// for item in buckets[i]
+// ====================================
+
+*/
+
 #include "pch.h"
 //
 //HashMap hm;
