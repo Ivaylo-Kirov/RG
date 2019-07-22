@@ -1,3 +1,35 @@
+/*
+
+// class TrieNode
+// children[26]
+// bool end_of_word
+
+// class Trie
+// root = new TrieNode()
+
+// insert
+// for i item.size()
+// index = item[i] - 'a' (0-25 depending on letter)
+// if current.children[index] == nullptr
+// current.children[index] = new TrieNode()
+// otherwise keep moving (current = current.children[index])
+// at the end, set end_of_word to TRUE.. (current.end_of_word = true)
+
+// search
+// same as insert, but if you hit nullptr, you return FALSE
+
+// erase
+// same as insert, but store nodes on stack
+// while (!stack.empty())
+// if children are null, just delete it
+// otherwise, set end_of_word = FALSE
+
+// hasChildren
+// for node : children
+// if node != nullptr (child exists)
+
+*/
+
 #include "pch.h"
 
 class TrieNode {
