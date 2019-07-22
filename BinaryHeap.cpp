@@ -1,3 +1,41 @@
+/*
+
+// ====================================class MyBinaryHeap
+// size_t size, size_t capacity
+// int* buffer
+// ====================================sink
+// swap left or right?
+// keep comparing and swap
+// ====================================swim
+// larger than parent?
+// swap and keep going
+// ====================================resize
+// capacity * 2
+// temp[capacity]
+// copy buffer into temp
+// buffer = temp
+// ====================================insert
+// check for resize
+// insert at end
+// swim
+// size++
+// ====================================popMax
+// replace first with last
+// sink first
+// delete last
+// size--
+// ====================================top
+// cout buffer[0]
+// ====================================getParentIndex
+// currentIndex - 1 / 2
+// ====================================getLeftChildIndex
+// currentIndex + 1 * 2) - 1
+// ====================================getRightChildIndex
+// currentIndex + 1) * 2
+// 
+
+*/
+
 #include "pch.h"
 
 // USAGE
