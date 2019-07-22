@@ -1,3 +1,16 @@
+/*
+
+// takes startNode
+// exit condition: startNode == null
+
+// visited.push(startNode)
+
+// for conn in startNode
+// if not visited
+// recurse(conn)
+
+*/
+
 class Edge;
 class Vertex;
 class Graph;
