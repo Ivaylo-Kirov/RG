@@ -1,3 +1,32 @@
+/*
+
+// ===========ListNode class
+// data
+// next pointer
+// =========== List class
+// root ListNode, start with nullptr
+// ================================== insertAtHead
+// newNode->next = head
+// head = newNode
+// ================================== insert
+// while ->next != nullptr keep moving
+// current->next = newNode
+// ======================================print
+// while ->next != nullptr keep moving
+// cout current
+// ======================================reverseIterative
+// 3 pointers, prev, current, next
+// figure out arithmetic and swaps
+// ======================================reverseRecursive
+// recurse until the end (exit condition is ->next == nullptr)
+// now run some swaps as you return up the stack
+// first - make head = node and return to go back down the tree
+// Base case fired and returned already, so current position is second last node
+// Q->next = current;
+// current->next = nullptr;
+
+*/
+
 #include "pch.h"
 
 //// USAGE
