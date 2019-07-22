@@ -1,3 +1,25 @@
+/*
+
+// merge
+// takes vector, start, mid, end
+// create aux (vector.begin(), vector.end())
+// i = start // will go start to mid
+// j = mid + 1 // will go mid to end
+// k = start // for aux
+// get lower element from each side and insert into aux
+// handle stragglers
+// iterate start to end and insert into original vector
+
+// mergeSort
+// takes vector, start, end
+// if start < end
+// mid = end+start / 2
+// mergeSort(vector, start, mid)
+// mergeSort(vector, mid + 1, end)
+// merge(vector, start, mid, end)
+
+*/
+
 #include "pch.h"
 
 void merge(std::vector<int>& nums, int start_index, int mid, int end_index) {
