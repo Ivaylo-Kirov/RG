@@ -1,3 +1,42 @@
+/*
+
+// ==================================== class BSTNode
+// int data
+// pointer left, pointer right
+// ==================================== class MyBST
+// pointer BSTNode.. default to nullptr
+// ====================================getHeightRecursive
+// exit condition = if currentNode == nullptr.. return -1 (or 0)
+// int leftHeight = getHeightRecursive( ->left)
+// int rightHeight = getHeightRecursive( ->right)
+// return max(leftHeight, rightHeight) + 1
+// ==================================== insert
+// data < current = insert(left)
+// data > current = insert(right)
+// ====================================search
+// data < current = search(left)
+// data > current = search(right)
+// ====================================findMin (Max just goes right)
+// while current AND current->left
+// current = current->left
+// return current->data
+// ==================================== erase
+// find the node
+// check for which condition: (1= NO CHILDREN, 2= 1 CHILD, 3= 2 CHILDREN)
+// 1= NO CHILDREN
+// just delete it
+// 2= 1 CHILD
+// swap with its child
+// 3= 2 CHILDREN
+// replace with successor
+// run delete on that subtree
+// ==================================== isValidBST
+// current->data > min && current->data < max
+// && isValidBST(->left, min, current->data)
+// && isValidBST(->right, current->data, max)
+
+*/
+
 #include "pch.h"
 
 //// USAGE
